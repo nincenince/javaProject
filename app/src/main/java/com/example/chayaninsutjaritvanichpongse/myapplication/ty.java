@@ -1,5 +1,6 @@
 package com.example.chayaninsutjaritvanichpongse.myapplication;
 
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,24 +10,24 @@ import android.widget.TextView;
 //import android.graphics.Typeface;
 
 
-public class SigninActivity extends AppCompatActivity {
+public class ty extends AppCompatActivity {
     TextView txtSlogan;
-    private Button signInAct;
+    private Button TyHome;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signin);
+        setContentView(R.layout.activity_ty);
 
-        signInAct = findViewById(R.id.SignInAct);
+        TyHome = findViewById(R.id.TyButton);
 
 
 
-        signInAct.setOnClickListener(new View.OnClickListener() {
+        TyHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SigninActivity.this, menu.class);
+                Intent intent = new Intent(ty.this, menu.class);
                 startActivity(intent);
             }
         });

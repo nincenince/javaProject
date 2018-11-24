@@ -1,5 +1,6 @@
 package com.example.chayaninsutjaritvanichpongse.myapplication;
 
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,29 +10,27 @@ import android.widget.TextView;
 //import android.graphics.Typeface;
 
 
-public class SigninActivity extends AppCompatActivity {
+public class payment extends AppCompatActivity {
     TextView txtSlogan;
-    private Button signInAct;
+    private Button MakePayment;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signin);
+        setContentView(R.layout.activity_payment);
 
-        signInAct = findViewById(R.id.SignInAct);
+        MakePayment = findViewById(R.id.paymentCon);
 
 
-
-        signInAct.setOnClickListener(new View.OnClickListener() {
+        MakePayment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SigninActivity.this, menu.class);
+                Intent intent = new Intent(payment.this, ty.class);
                 startActivity(intent);
             }
         });
 
 
     }}
-
 

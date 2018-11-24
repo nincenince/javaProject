@@ -6,4 +6,80 @@
     android:layout_height="match_parent"
     tools:context=".signupActivity">
 
+    <TextView
+        android:id="@+id/SignUpTitle"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/SignUpTitle"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/SignUpEm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/SignUpEm"
+        app:layout_constraintEnd_toEndOf="@+id/SignUpTitle"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/SignUpTitle"
+        app:layout_constraintTop_toBottomOf="@+id/SignUpTitle" />
+
+    <EditText
+        android:id="@+id/SignUpPas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/SignUpPas"
+        app:layout_constraintEnd_toEndOf="@+id/SignUpEm"
+        app:layout_constraintStart_toStartOf="@+id/SignUpEm"
+        app:layout_constraintTop_toBottomOf="@+id/SignUpEm" />
+
+    <EditText
+        android:id="@+id/SignUpAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="@string/SignUpAd"
+        app:layout_constraintEnd_toEndOf="@+id/SignUpPas"
+        app:layout_constraintStart_toStartOf="@+id/SignUpPas"
+        app:layout_constraintTop_toBottomOf="@+id/SignUpPas" />
+
+    <EditText
+        android:id="@+id/SignUpDebit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/SignUpDebit"
+        app:layout_constraintEnd_toEndOf="@+id/SignUpAd"
+        app:layout_constraintStart_toStartOf="@+id/SignUpAd"
+        app:layout_constraintTop_toBottomOf="@+id/SignUpAd" />
+
+    <Button
+        android:id="@+id/SignUpBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/SignUpBut"
+        app:layout_constraintEnd_toEndOf="@+id/SignUpDebit"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/SignUpDebit"
+        app:layout_constraintTop_toBottomOf="@+id/SignUpDebit" />
+
 </android.support.constraint.ConstraintLayout>

@@ -1,9 +1,26 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="slogan">My Application</string>
-    <string name="signin">Signin</string>
-    <string name="signup">Signup</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
     <string name="signinTitle">Sign In</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="SignInAct">next</string>
+    <string name="SignUpTitle">Sign Up</string>
+    <string name="SignUpEm">email</string>
+    <string name="SignUpPas">password</string>
+    <string name="SignUpAd">address</string>
+    <string name="SignUpDebit">debit/credit number</string>
+    <string name="SignUpBut">next</string>
+    <string name="MenuWel">Welcome</string>
+    <string name="MenuCh1">menu1</string>
+    <string name="MenuCh2">menu2</string>
+    <string name="MenuOut">Sign Out</string>
+    <string name="MenuCon">Confirm</string>
+    <string name="paymentText">Your Order...</string>
+    <string name="paymentTotal">Total(+7% vat) = </string>
+    <string name="paymentCon">make payment</string>
+    <string name="TyText">Thank you, enjoy your food</string>
+    <string name="TyButton">Home</string>
 </resources>

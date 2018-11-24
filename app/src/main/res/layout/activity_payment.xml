@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".payment">
+
+    <TextView
+        android:id="@+id/paymentText"
+        android:layout_width="169dp"
+        android:layout_height="47dp"
+        android:text="@string/paymentText"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="324dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/paymentText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/paymentText"
+        app:layout_constraintTop_toBottomOf="@+id/paymentText">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/paymentTotal"
+        android:layout_width="231dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/paymentTotal"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView2"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="@+id/scrollView2"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <Button
+        android:id="@+id/paymentCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="@string/paymentCon"
+        app:layout_constraintEnd_toEndOf="@+id/paymentTotal"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/paymentTotal"
+        app:layout_constraintTop_toBottomOf="@+id/paymentTotal" />
+</android.support.constraint.ConstraintLayout>

@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         signIn = findViewById(R.id.signinButton);
         signUp = findViewById(R.id.signupButton);
 
+
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
 
         txtSlogan = findViewById(R.id.txtSlogan);
         Typeface face = Typeface.createFromAsset(getAssets(), "fonts/Mentega.ttf");

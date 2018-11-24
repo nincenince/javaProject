@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".SigninActivity" />
-        <activity android:name=".signupActivity"></activity>
+        <activity android:name=".signupActivity" />
+        <activity android:name=".menu" />
+        <activity android:name=".payment" />
+        <activity android:name=".ty"></activity>
     </application>
 
 </manifest>
